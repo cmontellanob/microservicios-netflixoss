@@ -32,6 +32,7 @@ public class CatalogApp {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CatalogApp.class, args);
+		System.out.println(“Added by me in Item”);
 	}
 
 }
