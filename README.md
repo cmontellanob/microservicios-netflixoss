@@ -12,9 +12,12 @@ $ mvn clean compile package -Dmaven.test.skip=true
 The following code lines were incorporated:
 
 microservice-demo-order/src/main/java/com/ewolff/microservice/order/OrderApp.java
+
 ● System.out.println(“Added by me in OrderApp”);
 microservice-demo-customer/src/main/java/com/ewolff/microservice/customer/CustomerApp.java
+
 ● System.out.println(“Added by me in CustomerApp”);
 microservice-demo-catalog/src/main/java/com/ewolff/microservice/catalog/Item.java
+
 ● System.out.println(“Added by me in Item”);
 
